@@ -1,5 +1,6 @@
 package Array_ArrayList;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class arrays {
@@ -10,7 +11,7 @@ public class arrays {
         numbers[0] = 5;
         numbers[9] = 5;
 
-       /* *//*for (int i = 0; i <numbers.length ; i++) {
+        /* *//*for (int i = 0; i <numbers.length ; i++) {
             if (numbers[i] == 0){
                 numbers[i] = i*10;
             }
@@ -32,18 +33,17 @@ public class arrays {
         }*/
 
 
-        /*// Q2
-        Scanner input = new Scanner(System.in);
+        // Q2
+       /* Scanner input = new Scanner(System.in);
         int[]array = new int[5];
         for (int i = 0; i < array.length; i++) {
             System.out.println("sayı gir: ");
             int girilenSayı = input.nextInt();
             array[i] = girilenSayı;
         }
-        System.out.println(array.length);
+        System.out.println("array boyutu: " +array.length);
 
-        for (int i = array.length -1 ; i > 0 ; i--) {
-            System.out.println(array[i]);
+        System.out.print("Arrayin bu: " + Arrays.toString(array));
         }*/
 
 
