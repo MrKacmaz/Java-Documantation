@@ -1,6 +1,7 @@
 package LittleProject;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class LittleProject {
@@ -24,6 +25,10 @@ public class LittleProject {
         }
 
         ArrayList<String>ns = birleştir(names,surnames);
+
+        //yazdırma şekilleri
+        System.out.println(ns.toString());
+        System.out.println(Arrays.toString(new ArrayList[]{ns}));
         yazdır(ns);
 
     }

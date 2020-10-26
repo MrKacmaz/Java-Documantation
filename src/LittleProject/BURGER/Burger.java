@@ -1,7 +1,4 @@
 package LittleProject.BURGER;
-
-import jdk.swing.interop.SwingInterOpUtils;
-
 public class Burger {
 
     private String ismi;
