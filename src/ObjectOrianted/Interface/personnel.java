@@ -6,6 +6,7 @@ public class personnel implements compare {
     public personnel(int age) {
         this.age = age;
     }
+    public personnel() {}
 
     public int getAge() {
         return age;
@@ -24,5 +25,14 @@ public class personnel implements compare {
             return "First Age < Second Age";
         }
         else return "EQUALS";
+    }
+
+    @Override
+    public int minus(int a, int b) {
+        int sum = a-b;
+        if (sum<0){
+            return -sum;
+        }else
+            return sum;
     }
 }

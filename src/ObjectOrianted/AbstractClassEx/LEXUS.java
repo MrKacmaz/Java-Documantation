@@ -1,7 +1,6 @@
 package ObjectOrianted.AbstractClassEx;
 
 public class LEXUS extends CAR {
-    NISSAN N = new NISSAN();
 
     @Override
     public double oilPerKM() {

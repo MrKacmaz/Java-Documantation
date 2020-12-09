@@ -6,9 +6,7 @@ public class square implements compare {
     public square(int oneEdgeOfLength) {
         this.oneEdgeOfLength = oneEdgeOfLength;
     }
-    public square() {
-        oneEdgeOfLength = 0;
-    }
+    public square() {}
 
     public int getOneEdgeOfLength() {
         return oneEdgeOfLength;
@@ -30,5 +28,14 @@ public class square implements compare {
         }else if (this.area() < s1.area()){
             return "First Area < Second Area";
         }else return "EQUALS";
+    }
+
+    @Override
+    public int minus(int a, int b) {
+        int sum = a-b;
+        if (sum<0){
+            return -sum;
+        }else
+            return sum;
     }
 }

@@ -1,6 +1,7 @@
 package ObjectOrianted.AbstractClassEx;
 
 public abstract class CAR {
+    private String name;
     private int kg;
     private String model;
     private String color;
@@ -11,6 +12,14 @@ public abstract class CAR {
     //abstract kullanırken kesinlikle 1 tane içi boş method olmalı
     //abstract classdan extend edilen classlarda bu method override edilmeli
     public abstract double oilPerKM();
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public double getEngine() {
         return engine;
